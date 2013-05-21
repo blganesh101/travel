@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout android:id="@+id/maintbl" 
+		android:layout_width="fill_parent" 
+		android:layout_height="60dip" 
+		android:layout_alignParentBottom="true"
+		android:gravity="center"
+		android:background="@drawable/ic_launcher"	
+		xmlns:android="http://schemas.android.com/apk/res/android">	
+					
+	<TableRow>
+				
+	<ImageView
+			android:id="@+id/bottombar1"
+			android:layout_width="32dip" 
+			android:layout_height="55dip"
+			android:visibility="visible"
+			android:layout_weight="0.35"
+			android:background="@drawable/ic_launcher"/>
+				
+	<ImageView 
+			android:id="@+id/bottombar2"
+			android:layout_width="32dip" 
+			android:layout_height="55dip"
+			android:visibility="visible"
+			android:layout_weight="0.35"
+			android:background="@drawable/ic_launcher"/>
+	
+	<ImageView 
+			android:id="@+id/bottombar3"
+			android:layout_width="32dip" 
+			android:layout_height="55dip"
+			android:visibility="visible"
+			android:layout_weight="0.35"
+			android:background="@drawable/ic_launcher"/>	
+	</TableRow>	
+	
+</TableLayout>	
+					

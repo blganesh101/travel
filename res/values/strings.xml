@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, FolkloreMain!</string>
+    <string name="app_name">Folklore</string>
+        <string name="intro_msg">Please configure your news source and account information.</string>
+   <string name="domain_prompt">Choose a news source</string>
+    <string name="yt_account_prompt">Choose your Google/YouTube account</string>
+    <string name="dev_key">"dev-key"</string>
+    <string name="client_id">client-ID</string>
+    <string name="default_ytd_domain">Folklore</string>
+    <string name="default_ytd_domain_name">Video Tour</string>
+</resources>

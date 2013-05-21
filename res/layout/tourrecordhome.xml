@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="fill_parent"
+  android:layout_centerHorizontal="true"
+  android:fillViewport="true">
+  <RelativeLayout
+          android:layout_width="fill_parent"
+          android:gravity="center"
+          android:layout_height="wrap_content" android:background="#ffffff">
+ 
+          <!--  Header Starts-->
+<!--  Header Starts-->
+		<LinearLayout android:id="@+id/header"
+		      android:layout_width="fill_parent"
+		      android:layout_height="wrap_content"
+		      android:gravity="center"
+		      >
+		          <!-- Logo Start-->
+		          <ImageView android:src="@drawable/folklore_logo_small1"
+		              android:layout_width="wrap_content"
+		              android:layout_height="wrap_content"
+		               android:gravity="center"
+		              android:layout_marginLeft="10dip"/>
+		          <!-- Logo Ends -->
+		</LinearLayout>
+          <!-- Login Form -->
+          <LinearLayout
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          android:orientation="vertical"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:padding="10dip"
+          android:layout_below="@id/header">
+          <!--  Email Label -->
+          <TextView android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:textColor="#372c24"
+                  android:visibility="invisible"
+                  android:text="Email"/>
+          <EditText android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="5dip"
+                  android:layout_marginBottom="20dip"
+                  android:singleLine="true"
+                  android:visibility="invisible"
+                  android:id="@+id/userEmail"/>
+          
+          <Button android:id="@+id/btnRecordVideo"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="10dip"
+                  android:text="Record Video Tour"/>
+                  
+         
+         
+            <Button android:id="@+id/btnRecordAudio"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="10dip"
+                  android:text="Record Audio Tour"/> 
+                  
+          <TextView android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:textColor="#372c24"
+                  android:text=""
+                  android:id="@+id/error"
+                  android:layout_marginTop="5dip"
+                  android:layout_marginBottom="20dip"/>        
+
+ 
+</LinearLayout>
+          <!-- Login Form Ends -->
+ 
+  </RelativeLayout>
+</ScrollView>

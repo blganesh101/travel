@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.folklore.tourengine"
+      android:versionCode="1"
+      android:versionName="1.0">
+<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+<uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+
+    <application android:icon="@drawable/folklore_icon" android:label="@string/app_name" >
+        <activity android:name=".FolkloreMain"
+                  android:label="@string/app_name">
+         	<intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".LoginActivity" android:label="Login" >
+        </activity>
+        
+        <activity android:name=".MainActivity" android:label="Main" >
+        </activity>
+          <activity android:name=".HomeActivity" android:label="Home" >
+        </activity>
+        
+        <activity android:name="com.folklore.ui.widget.VideoPlayerView" android:label="VideoPlayerView" >
+        </activity>
+        
+        <activity android:name="com.folklore.ui.widget.VideoWebView" android:label="VideoWebView" >
+        </activity>
+        
+        <activity android:name="com.folklore.adstemp.TempAdActivity" android:label="TempAdActivity" >
+        </activity>
+        
+        <activity android:name="com.folklore.tourengine.TourRecorderActivity" android:label="TourRecorderActivity" >
+        </activity>
+        
+        <activity android:name="com.folklore.audiotour.AddInfo_record_audio" android:label="AddInfo_record_audio"></activity>
+        <activity android:name="com.folklore.audiotour.AudioRecorder" android:label="AudioRecorder"></activity>
+        <activity android:name="com.folklore.audiotour.Search_Audio" android:label="Search_Audio"></activity>
+        <activity android:name="com.folklore.audiotour.AudioPlay" android:label="AudioPlay"></activity>
+        <activity android:name="com.folklore.audiotour.MediaAudioList" android:label="MediaAudioList"></activity>
+        
+       <activity android:name="com.folklore.ads.AdsActivity"
+              android:configChanges="keyboard|keyboardHidden|orientation"/>
+        
+       <activity
+            android:name="com.folklore.videotour.AndroidVideoCapture"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity android:name="com.folklore.videotour.Video_Details" >
+        </activity>
+        <activity
+            android:name="com.folklore.videotour.ViewVideo"
+            android:screenOrientation="landscape" >
+        </activity>
+         <activity android:name="com.folklore.videotour.Video_Search" >
+        </activity>
+        
+         <activity android:name="com.folklore.videotour.VideodemoActivity" >
+        </activity>
+        
+      
+    </application>
+
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"></uses-permission>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"></uses-permission>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+
+    <uses-permission android:name="com.google.android.googleapps.permission.GOOGLE_AUTH"/>
+    <uses-permission android:name="com.google.android.googleapps.permission.GOOGLE_AUTH.youtube"/>
+    <uses-sdk android:minSdkVersion="6"/>
+              
+        
+</manifest>

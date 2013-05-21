@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout android:id="@+id/maintbl" 
+		android:layout_width="fill_parent" 
+		android:layout_height="60dip" 
+		android:layout_alignParentBottom="true"
+		android:gravity="center"
+		android:background="@drawable/tranparentthree"	
+		xmlns:android="http://schemas.android.com/apk/res/android">	
+					
+	<TableRow>
+				
+	              
+  <ImageView   android:layout_width="32dip"
+               android:layout_height="50dp"
+               android:src="@drawable/add_focus"
+               android:layout_gravity="left|center_vertical"
+               android:layout_weight="0.25"
+               android:id="@+id/bottom_leftimage"/>
+               
+  <ImageView   
+  			   android:layout_width="32dip"
+               android:layout_height="50dp"
+               android:layout_gravity="right|center_vertical"
+               android:src="@drawable/refresh_focus"
+               android:layout_weight="0.25"
+               android:id="@+id/bottom_centreimage" 
+               />   
+               
+    <ImageView   
+  			   android:layout_width="32dip"
+               android:layout_height="50dp"
+               android:layout_gravity="right|center_vertical"
+               android:src="@drawable/search_focus"
+               android:layout_weight="0.25"
+               android:id="@+id/bottom_rightimage" 
+               /> 
+  
+  
+	</TableRow>	
+	
+</TableLayout>	
+					
